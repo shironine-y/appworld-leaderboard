@@ -1368,16 +1368,16 @@
         }
     },
     {
-        "id": "3b4f20d4-e184f543",
+        "id": "67198123-c88248d7",
         "method": {
-            "name": "Graph Harness",
-            "tooltip": "Training-graph-guided API suggestions with execution checks, checkpoints, failure feedback, and bounded rollback."
+            "name": "PELG Harness",
+            "tooltip": "Training-trace PELG guidance with task-scoped statistics, cross-task API suggestions, execution checks, checkpoint recovery, and failure constraints."
         },
         "llm": {
             "name": "Qwen3.6-27B",
             "tooltip": "FP8; vLLM; single NVIDIA A100 80GB PCIe"
         },
-        "url": "https://github.com/shironine-y/Graph_Harness",
+        "url": "https://github.com/shironine-y/PELG-harness",
         "date": "2026-10-19",
         "test_normal": {
             "all": {
